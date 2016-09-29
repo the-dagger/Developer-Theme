@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
         // how many entries do you want?
         // default: 4
         // valid values: any integer
-        limit: 4,
+        limit: 8,
 
         // the effect, which is used to let the entries appear
         // default: 'show'
