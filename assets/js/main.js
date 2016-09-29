@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
         // how many entries do you want?
         // default: 4
         // valid values: any integer
-        limit: 3,
+        limit: 4,
 
         // the effect, which is used to let the entries appear
         // default: 'show'
@@ -49,8 +49,10 @@ jQuery(document).ready(function($) {
         // inner template for each entry
         // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
         // valid values: any string
-        entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>Read more</a></div>'
+        entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>Read more</a></div>',
 
+        // Use SSL
+        ssl : true
         }
     );
 
